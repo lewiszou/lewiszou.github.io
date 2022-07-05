@@ -25,12 +25,12 @@
 
 // Font.
 $font: (
-  primary: ("Lato","Helvetica Neue",Helvetica,sans-serif),
-  secondary: ("Noto Serif",Georgia,serif)
+  primary: ("Garamond"),
+  secondary: ("Garamond)
 );
 
 // Palette.
-{% assign accent = site.accent_color | default: '#2d72d9' %}
+{% assign accent = site.accent_color | default: '#ffffff' %}
 $palette: (
   accent:    {{ accent }},
   primary:   #6b747a,
